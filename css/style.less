@@ -1,0 +1,410 @@
+@import url(m_style.css);
+.full(@w,@h,@bg){
+    width:@w;
+    height:@h;
+    background: @bg;
+}
+.fl(@f:left){
+    float:@f;
+}
+.cen{
+    margin: 0 auto;
+}
+body{
+    background: #f6f6f6;
+}
+.title{
+    .full(100%,80px,#7d19b9);
+    position: relative;
+    .top{
+        .full(1192px,80px,none);
+        .cen;
+        img{
+            .fl;
+        }
+    }
+   .qiu{
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+}
+.ban{
+    .full(100%,32px,#e3e4e5);
+    .menu{
+        .full(1192px,32px,#e3e4e5);
+        .cen;
+        .left{
+            .full(190px,32px,#fff);
+            .fl;         
+        }
+        .bei{
+            .full(75px,32px,#e3e4e5);
+            .fl;
+            span{
+              padding-left: 35px;
+                line-height: 32px;
+                background: url(../img/din.gif) no-repeat left center;
+                padding-left: 15px;
+                margin-left: 20px;
+                color: #999999;
+            }
+        }
+        .right{
+           .full(706px,32px,#e3e4e5);
+           .fl(right);
+           ul{
+               li{
+                   .fl;
+                   line-height: 32px;
+                   padding-left: 8px;
+                  color: #999999;
+                   a{
+                        color: #999999;
+                       span{
+                           color: #f10215;
+                       }
+                   }
+                   &.san{
+                       background: url(../img/jian.gif) no-repeat right center;
+                       padding-right: 12px;
+                   }
+                   &.er{
+                       background: url(../img/jian.gif) no-repeat right center;
+                       padding-right: 12px;
+                   }
+                   &.me{
+                      background: url(../img/jian.gif) no-repeat right center;
+                       padding-right: 12px; 
+                   }
+               }
+           }
+        }
+    }
+}
+.banner{
+    .full(100%,139px,#f6f6f6);
+    .xiao{
+        .full(1192px,139px,#f6f6f6);
+        .cen;
+        .left{
+            .full(190px,139px,#fff);
+            .fl;
+            img{
+                margin-left: 25px;
+            }
+        }
+        .mid{
+            .full(705px,139px,#f6f6f6);
+            .fl;
+            position: relative;
+            form{
+                margin-top: 25px;
+                margin-left: 130px;
+                
+                .text{
+                   width:498px;
+                   height:35px;
+                   .fl; 
+                   border: 1px solid #f10215;
+                   color: #989898;
+                   text-indent: 4px;
+                   outline: none;
+                  line-height: 35px;
+                }
+                span{
+                    display: inline-block;
+                    .full(50px,37px,#f10215);
+                    .fl;
+                    img{
+                        margin-left: 15px;
+                        margin-top: 10px;
+                    }
+                }
+                .xiang{
+                    position: absolute;
+                    right: 90px;
+                    top: 36px;
+                }
+            }
+            .cai{
+                .full(550px,30px,#f6f6f6);
+                .fl;
+                 margin-left: 130px;
+                 p{
+                     a{
+                         margin-left: 4px;
+                         line-height: 30px;
+                         color: #999999;
+                         &.first{
+                             color: #f10215;
+                         }
+                     }
+                 }
+            }
+            .lie{
+                .full(700px,38px,#f6f6f6);
+                .fl;
+                margin-top: 7px;
+                margin-left: 5px;
+                position: relative;
+                ul{
+                    li{
+                        .fl;
+                        padding-left: 30px;
+                        line-height: 38px;
+                        font-size: 17px;
+                        color: #555555;
+                        font-weight: bold;
+                    }
+                }
+              .duan{
+                  position: absolute;
+                  right:220px;
+                  top: 0;
+              } 
+              .shu{
+                  position: absolute;
+                  left: 285px;
+                  top: 15px;
+              } 
+              .xs{
+                  position: absolute;
+                  right: 90px;
+                  top: 15px;
+              }
+            }
+        }
+        .x_right{
+            .full(290px,139px,#f6f6f6);
+            .fl(right);
+            position: relative;
+            .top{
+                .full(188px,35px,#fff);
+                .fl;
+                margin-top: 27px;
+                border: 1px solid #e3e4e5;
+                position: relative;
+                span{
+                    line-height: 35px;
+                    padding-left: 75px;
+                    color: #f10214;
+                }
+                .che{
+                    position: absolute;
+                    left: 55px;
+                    top: 8px;
+                }
+                .li{
+                    position: absolute;
+                    right: 30px;
+                    top: 5px;
+                }
+            }
+            .bum{
+                .full(190px,42px,#f6f6f6);
+                .fl(right);
+                margin-top: 30px;
+            }
+            .ma{
+                position: absolute;
+                right: 0;
+                top: 0;
+                border: 1px solid #ccc;
+                
+            }
+           
+        }
+    }
+}
+.main{
+    .full(1192px,482px,#f6f6f6);
+    .cen;
+    //position: relative;
+    .left{
+        .full(190px,482px,#6e6568);
+        .fl;
+        ul{
+            .fl;
+            li{
+               margin-top: 12px;
+               padding-left: 12px;
+               font-size: 13px;
+               color: #fff;
+               span{
+                   margin-left: 3px;
+               }
+            }
+        }
+    }
+    .zhong{
+        .full(792px,482px,#f6f6f6);
+        .fl;
+        margin-left: 10px;
+        .one{
+            .full(792px,340px,#f6f6f6);
+            .fl;
+        }
+        .two{
+            .full(390px,130px,#f6f6f6);
+            .fl;
+            margin-top: 10px;
+        }
+        .three{
+            .full(390px,130px,pink);
+            .fl;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    }
+    .right{
+        .full(190px,482px,#f6f6f6);
+        .fl(right);
+        .top{
+            .full(190px,115px,#fff);
+            .fl;
+            dl{
+                .fl;
+                margin-top: 15px;
+                margin-left: 15px;
+                dt{
+                    .fl;
+                }
+                dd{
+                    .fl;
+                    margin-left: 10px;
+                    color: #666666;
+                    h5{
+                        font-weight: normal;
+                        color: #666666;
+                    }
+                    p{
+                        margin-top: 4px;
+                    }
+                }
+            }
+            .sp{
+                display: inline-block;
+                .full(70px,20px,#fff);
+                margin-left: 15px;
+                margin-top: 12px;
+                line-height: 20px;
+                text-align: center;
+                color: #e01222;
+                border: 2px solid #e01222;
+            }
+            .spa{
+                display: inline-block;
+                .full(70px,20px,#fff);
+                margin-left: 10px;
+                margin-top: 12px;
+                line-height: 20px;
+                text-align: center;
+                color: #e01222;
+                border: 2px solid #e01222;
+            }
+        }
+        .con{
+            .full(190px,155px,#fff);
+            .fl;
+            border-top: 1px solid #e6e6e6;
+            .top{
+                .full(163px,27px,#fff);
+                .fl;
+                margin: 0 13px;
+                border-bottom: 1px solid #e6e6e6;
+                ul{
+                    li{
+                        .fl;
+                        line-height: 27px;
+                        padding-right: 15px; 
+                        
+                        &.first{
+                            span{
+                            width:29px;
+                            border-bottom: 2px solid #db192b;
+                            color: #333333;    
+                            }                    
+                        }
+                        &.er{
+                           background: url(../img/shug.gif) no-repeat left center;                            
+                            //margin-left: 13px;
+                            padding-left: 13px;
+                            color: #333333; 
+                        }
+                    }
+                }
+                span{
+                    .fl(right);
+                    line-height: 27px;
+                    color: #666666;
+                }
+            }
+            ol{
+                margin-top: 44px;
+                li{
+                    .fl;
+                   line-height: 24px;
+                    a{
+                       padding-left: 15px;
+                       color: #666666;  
+                    }
+                    span{
+                        padding-left: 20px;
+                        color: #666666;
+                    }
+                }
+            }
+        }
+        .butom{
+            .full(190px,210px,#fff);
+            .fl;
+            position: relative;
+            border-top: 1px solid #e7e7e7;
+            dl{
+                .fl;
+                width:46px;
+                height:69px;
+                background: none;
+               border-right: 1px solid #e7e7e7;
+                border-bottom: 1px solid #e7e7e7;                            
+                dt{
+                   margin-top: 15px; 
+                   margin-left: 16px;
+                }
+                dd{
+                   padding-left: 11px; 
+                   margin-top: 9px;
+                   color: #666666;
+                }
+                &.last{
+                    border-right: none;
+                }
+            }
+            .jian{
+                position: absolute;
+                left: 82px;
+                top: 0;
+            }
+            .qi{
+                position: absolute;
+                right:0;
+                top: 70px;
+            }
+        }
+    }
+    
+}
+
+
+
+.plu{
+    position: fixed;
+    right: 0;
+    top: 257px;
+}
+ .min{
+    position: fixed;
+    left: 0;
+    top: 249px;
+}

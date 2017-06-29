@@ -1,0 +1,442 @@
+@import url(m_style.css);
+.cen {
+  margin: 0 auto;
+}
+body {
+  background: #f6f6f6;
+}
+.title {
+  width: 100%;
+  height: 80px;
+  background: #7d19b9;
+  position: relative;
+}
+.title .top {
+  width: 1192px;
+  height: 80px;
+  background: none;
+  margin: 0 auto;
+}
+.title .top img {
+  float: left;
+}
+.title .qiu {
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+.ban {
+  width: 100%;
+  height: 32px;
+  background: #e3e4e5;
+}
+.ban .menu {
+  width: 1192px;
+  height: 32px;
+  background: #e3e4e5;
+  margin: 0 auto;
+}
+.ban .menu .left {
+  width: 190px;
+  height: 32px;
+  background: #ffffff;
+  float: left;
+}
+.ban .menu .bei {
+  width: 75px;
+  height: 32px;
+  background: #e3e4e5;
+  float: left;
+}
+.ban .menu .bei span {
+  padding-left: 35px;
+  line-height: 32px;
+  background: url(../img/din.gif) no-repeat left center;
+  padding-left: 15px;
+  margin-left: 20px;
+  color: #999999;
+}
+.ban .menu .right {
+  width: 706px;
+  height: 32px;
+  background: #e3e4e5;
+  float: right;
+}
+.ban .menu .right ul li {
+  float: left;
+  line-height: 32px;
+  padding-left: 8px;
+  color: #999999;
+}
+.ban .menu .right ul li a {
+  color: #999999;
+}
+.ban .menu .right ul li a span {
+  color: #f10215;
+}
+.ban .menu .right ul li.san {
+  background: url(../img/jian.gif) no-repeat right center;
+  padding-right: 12px;
+}
+.ban .menu .right ul li.er {
+  background: url(../img/jian.gif) no-repeat right center;
+  padding-right: 12px;
+}
+.ban .menu .right ul li.me {
+  background: url(../img/jian.gif) no-repeat right center;
+  padding-right: 12px;
+}
+.banner {
+  width: 100%;
+  height: 139px;
+  background: #f6f6f6;
+}
+.banner .xiao {
+  width: 1192px;
+  height: 139px;
+  background: #f6f6f6;
+  margin: 0 auto;
+}
+.banner .xiao .left {
+  width: 190px;
+  height: 139px;
+  background: #ffffff;
+  float: left;
+}
+.banner .xiao .left img {
+  margin-left: 25px;
+}
+.banner .xiao .mid {
+  width: 705px;
+  height: 139px;
+  background: #f6f6f6;
+  float: left;
+  position: relative;
+}
+.banner .xiao .mid form {
+  margin-top: 25px;
+  margin-left: 130px;
+}
+.banner .xiao .mid form .text {
+  width: 498px;
+  height: 35px;
+  float: left;
+  border: 1px solid #f10215;
+  color: #989898;
+  text-indent: 4px;
+  outline: none;
+  line-height: 35px;
+}
+.banner .xiao .mid form span {
+  display: inline-block;
+  width: 50px;
+  height: 37px;
+  background: #f10215;
+  float: left;
+}
+.banner .xiao .mid form span img {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.banner .xiao .mid form .xiang {
+  position: absolute;
+  right: 90px;
+  top: 36px;
+}
+.banner .xiao .mid .cai {
+  width: 550px;
+  height: 30px;
+  background: #f6f6f6;
+  float: left;
+  margin-left: 130px;
+}
+.banner .xiao .mid .cai p a {
+  margin-left: 4px;
+  line-height: 30px;
+  color: #999999;
+}
+.banner .xiao .mid .cai p a.first {
+  color: #f10215;
+}
+.banner .xiao .mid .lie {
+  width: 700px;
+  height: 38px;
+  background: #f6f6f6;
+  float: left;
+  margin-top: 7px;
+  margin-left: 5px;
+  position: relative;
+}
+.banner .xiao .mid .lie ul li {
+  float: left;
+  padding-left: 30px;
+  line-height: 38px;
+  font-size: 17px;
+  color: #555555;
+  font-weight: bold;
+}
+.banner .xiao .mid .lie .duan {
+  position: absolute;
+  right: 220px;
+  top: 0;
+}
+.banner .xiao .mid .lie .shu {
+  position: absolute;
+  left: 285px;
+  top: 15px;
+}
+.banner .xiao .mid .lie .xs {
+  position: absolute;
+  right: 90px;
+  top: 15px;
+}
+.banner .xiao .x_right {
+  width: 290px;
+  height: 139px;
+  background: #f6f6f6;
+  float: right;
+  position: relative;
+}
+.banner .xiao .x_right .top {
+  width: 188px;
+  height: 35px;
+  background: #ffffff;
+  float: left;
+  margin-top: 27px;
+  border: 1px solid #e3e4e5;
+  position: relative;
+}
+.banner .xiao .x_right .top span {
+  line-height: 35px;
+  padding-left: 75px;
+  color: #f10214;
+}
+.banner .xiao .x_right .top .che {
+  position: absolute;
+  left: 55px;
+  top: 8px;
+}
+.banner .xiao .x_right .top .li {
+  position: absolute;
+  right: 30px;
+  top: 5px;
+}
+.banner .xiao .x_right .bum {
+  width: 190px;
+  height: 42px;
+  background: #f6f6f6;
+  float: right;
+  margin-top: 30px;
+}
+.banner .xiao .x_right .ma {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 1px solid #ccc;
+}
+.main {
+  width: 1192px;
+  height: 482px;
+  background: #f6f6f6;
+  margin: 0 auto;
+}
+.main .left {
+  width: 190px;
+  height: 482px;
+  background: #6e6568;
+  float: left;
+}
+.main .left ul {
+  float: left;
+}
+.main .left ul li {
+  margin-top: 12px;
+  padding-left: 12px;
+  font-size: 13px;
+  color: #fff;
+}
+.main .left ul li span {
+  margin-left: 3px;
+}
+.main .zhong {
+  width: 792px;
+  height: 482px;
+  background: #f6f6f6;
+  float: left;
+  margin-left: 10px;
+}
+.main .zhong .one {
+  width: 792px;
+  height: 340px;
+  background: #f6f6f6;
+  float: left;
+}
+.main .zhong .two {
+  width: 390px;
+  height: 130px;
+  background: #f6f6f6;
+  float: left;
+  margin-top: 10px;
+}
+.main .zhong .three {
+  width: 390px;
+  height: 130px;
+  background: #ffc0cb;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .right {
+  width: 190px;
+  height: 482px;
+  background: #f6f6f6;
+  float: right;
+}
+.main .right .top {
+  width: 190px;
+  height: 115px;
+  background: #ffffff;
+  float: left;
+}
+.main .right .top dl {
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.main .right .top dl dt {
+  float: left;
+}
+.main .right .top dl dd {
+  float: left;
+  margin-left: 10px;
+  color: #666666;
+}
+.main .right .top dl dd h5 {
+  font-weight: normal;
+  color: #666666;
+}
+.main .right .top dl dd p {
+  margin-top: 4px;
+}
+.main .right .top .sp {
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  background: #ffffff;
+  margin-left: 15px;
+  margin-top: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #e01222;
+  border: 2px solid #e01222;
+}
+.main .right .top .spa {
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  background: #ffffff;
+  margin-left: 10px;
+  margin-top: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #e01222;
+  border: 2px solid #e01222;
+}
+.main .right .con {
+  width: 190px;
+  height: 155px;
+  background: #ffffff;
+  float: left;
+  border-top: 1px solid #e6e6e6;
+}
+.main .right .con .top {
+  width: 163px;
+  height: 27px;
+  background: #ffffff;
+  float: left;
+  margin: 0 13px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.main .right .con .top ul li {
+  float: left;
+  line-height: 27px;
+  padding-right: 15px;
+}
+.main .right .con .top ul li.first span {
+  width: 29px;
+  border-bottom: 2px solid #db192b;
+  color: #333333;
+}
+.main .right .con .top ul li.er {
+  background: url(../img/shug.gif) no-repeat left center;
+  padding-left: 13px;
+  color: #333333;
+}
+.main .right .con .top span {
+  float: right;
+  line-height: 27px;
+  color: #666666;
+}
+.main .right .con ol {
+  margin-top: 44px;
+}
+.main .right .con ol li {
+  float: left;
+  line-height: 24px;
+}
+.main .right .con ol li a {
+  padding-left: 15px;
+  color: #666666;
+}
+.main .right .con ol li span {
+  padding-left: 20px;
+  color: #666666;
+}
+.main .right .butom {
+  width: 190px;
+  height: 210px;
+  background: #ffffff;
+  float: left;
+  position: relative;
+  border-top: 1px solid #e7e7e7;
+}
+.main .right .butom dl {
+  float: left;
+  width: 46px;
+  height: 69px;
+  background: none;
+  border-right: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+.main .right .butom dl dt {
+  margin-top: 15px;
+  margin-left: 16px;
+}
+.main .right .butom dl dd {
+  padding-left: 11px;
+  margin-top: 9px;
+  color: #666666;
+}
+.main .right .butom dl.last {
+  border-right: none;
+}
+.main .right .butom .jian {
+  position: absolute;
+  left: 82px;
+  top: 0;
+}
+.main .right .butom .qi {
+  position: absolute;
+  right: 0;
+  top: 70px;
+}
+.plu {
+  position: fixed;
+  right: 0;
+  top: 257px;
+}
+.min {
+  position: fixed;
+  left: 0;
+  top: 249px;
+}
